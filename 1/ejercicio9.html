@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 9</title>
+
+    <style>
+        *, * * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: 15em;
+            width: 70vw;
+        }
+
+        .header {
+            background-color: black;
+            width: 100%;
+            height: 20%;
+            color: white;
+        }
+        
+        .menu {
+            height: 70%;
+            width: 40%;
+            background-color: lightgray;
+            float: left;
+        }
+
+        ul {
+            padding: 1em;
+        }
+        li {
+            margin-left: 2em;
+        }
+
+        .article {
+            height: 70%;
+            width: 60%;
+            float: right;
+            padding: 1em;
+        }
+
+        p+p {
+            margin-top: 1em;
+        }
+
+        .footer {
+            height: 10%;
+            width: 100%;
+            background-color: gray;
+            clear: both;
+            color: white;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Titulo página</h1>
+        </header>
+        <menu class="menu">
+            <ul>
+                <h2>Menú</h2>
+                <li><a href="#">item-1</a></li>
+                <li><a href="#">item-2</a></li>
+                <li><a href="#">item-3</a></li>
+                <li><a href="#">item-4</a></li>
+                <li><a href="#">item-5</a></li>
+            </ul>
+        </menu>
+        <article class="article">
+            <h2>Sub-título</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam tempore obcaecati dicta neque! Quaerat, repellendus earum suscipit minus magnam sequi accusamus quos, nemo inventore quas eum ducimus alias, ab voluptates.</p>
+            <p>Quibusdam enim maiores et. Odio ex esse alias voluptas aperiam saepe quaerat maiores nisi atque repellendus sunt voluptatum laborum, optio magnam. Quae voluptates molestias aspernatur delectus omnis, amet iure numquam.</p>
+        </article>
+        <footer class="footer">
+            <p>&copy; Todos los derechos reservados</p>
+        </footer>
+    </div>
+</body>
+</html>
